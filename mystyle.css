@@ -1,0 +1,42 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+body {
+  background-color: #efefef;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+.content-wrapper {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 5px #ccc;
+}
+h1 {
+  color: red;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+p, li {
+  font-size: 14px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  line-height: 2;
+  border-bottom: #efefef 1px solid;
+}
+.button {
+  line-height: 2.5;
+  color: white;
+  background-color: red;
+  padding: 5px;
+  text-decoration: none;
+}
+.button:hover {
+  background-color: darkred;
+}
